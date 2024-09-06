@@ -44,8 +44,8 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=velocity
-            --detect.project.version.name=velocity
+            --detect.project.name=Semi-Automated_Labelling_Tool
+            --detect.project.version.name=1.0
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
